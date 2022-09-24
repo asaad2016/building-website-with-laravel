@@ -1,0 +1,17 @@
+{
+"sProcessing" : "...جاري التفعيل",
+"sLenghtMenu" : " MENU_ اظهر مشغلات",
+"sZeroProducts" : "لم يتم العثور علي سجلات",
+"sInFo" : "اظهار",
+"sInForEmpty" : "بعرض  0 الي 0 من اصل 0",
+"sInForFiltered" : "استثناء من مجموعة MAX_ مشغل",
+"sInForPostFix" : "",
+"sSearch" : "fpe",
+"sUrl" : "",
+"oPaginate":{
+"sFirst" : "الاول",
+"sLast" : "الاخير",
+"sPrevious" : "السابق",
+"sNext" : "التالي"
+	}
+}

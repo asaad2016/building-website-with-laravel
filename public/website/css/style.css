@@ -1,0 +1,125 @@
+body{
+    font-family: 'Varela Round', sans-serif;
+  
+   
+}
+/*****starrt header*****/
+header .navbar{
+    background-color: #242830 !important;
+}
+header button{
+    border: none !important;
+    outline: none;
+    cursor: pointer;
+  
+}
+
+header button i{
+    color: #fff;
+  }
+
+.navbar ul li{
+  margin-right: 20px;
+}
+
+.navbar ul li:last-of-type{
+   margin-right: 0;
+}
+
+.navbar ul li a{
+     color: rgba(255, 255, 255, 0.6)  ;
+    padding: 20px;
+    transition: all .5s ease-in-out
+}
+.navbar a:hover{
+    color: #f1f1f1 !important;
+}
+
+header .header{
+    background-image: url(/website/img/hero-bg.jpg);
+    background-size: cover;
+    height: 582px;
+    display: flex;
+    align-items: center;
+}
+header .header h1{
+    
+    letter-spacing: 12;
+    color: #353535;
+    margin-bottom: 40px;
+    animation-name:fadeh;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function:ease-in-out;
+    
+}
+header .header h1 span{
+    color: #cecece;
+  }
+header .header p{
+    color: #aaa;
+    margin-bottom: 100px;
+      animation-name:fadep;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+  
+   animation-fill-mode: forwards;
+   
+    animation-timing-function:ease-in-out;
+    animation-direction: reverse;
+}
+header .header button.back{
+    background-color: #3dc9b3;
+    color: #fff;
+    padding: 20px 50px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 1px 1px #309383;
+    cursor: pointer;
+    
+    
+}
+header .header button.back:hover{
+ 
+   
+     transform: rotateX(45deg);
+    
+    
+}
+@keyframes fadeh{
+    0%{
+        opacity: 0;
+        transform: translateY(20);
+        transition: all .3s ease-in-out
+    }
+      100%{
+        opacity: 1;
+         transform: translateY(0);
+          transition: all .3s ease-in-out
+    }
+}
+@keyframes fadep{
+    0%{
+       
+         opacity: 1;
+         transform: translateY(-20px);
+        transition: all .3s ease-in-out
+    }
+      100%{
+           opacity: 0;
+        transform: translateY(20px);
+          transition: all .3s ease-in-out
+       
+    }
+}
+.active{
+  color: green !important;
+}
+.col-item .photo a img:not(.singleimg){
+  height: 137px;
+}
+
+/*****end header*****/
+/*****start protifilo*****/
+
